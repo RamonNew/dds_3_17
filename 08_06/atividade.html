@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Login</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color: rgb(134, 130, 130);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        h1{
+            color: rgb(25, 25, 174);
+        }
+        .login{ 
+            background-color: rgb(170, 159, 159);
+            width: 400px;
+            margin: 100px auto;
+        }
+        span{
+            text-align: center;
+        }
+        .inputs, .esqueceu{
+           padding: 0 20px;
+        }
+        .inputs{
+            padding-bottom: 20px;
+        }
+        .esqueceu{
+            background-color: rgb(131, 134, 171);
+            text-align: right;
+            padding-bottom: 10px;
+        }
+
+        .email-senha-submit{
+            width: 100%;
+        }
+        .logar{
+            background-color: rgb(57, 95, 141);
+            color: white;
+            height: 30px;
+        }
+        button{
+            color: rgb(58, 58, 159);
+        }
+    </style>
+</head>
+<body>
+    <div class="login">
+        <span><h1>Login</h1></span>
+        <div class="inputs">
+            <label  for="">Seu e-mail</label>
+            <br>
+            <input class="email-senha-submit" placeholder="contato@htmlcsspro.com" type="text">
+            <label  for="">Sua senha</label>
+            <br>
+            <input class="email-senha-submit" placeholder="1234" type="text">
+            <br>
+            <input type="checkbox"><label for="">Manter-me logado</label>
+            <br>
+            <input class="email-senha-submit logar" type="submit" value="Logar">
+        </div>
+        <div class="esqueceu">
+            <label for="">Ainda não tem conta? </label><button><b>Cadastre-se</b></button>
+        </div>
+    </div>
+</body>
+</html>
