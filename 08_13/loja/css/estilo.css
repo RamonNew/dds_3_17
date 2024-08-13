@@ -1,0 +1,87 @@
+/* Padronizando carregamento */
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+/* Configurando corpo da página */
+body {
+    background-color: #f3f3f3;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Configurando Menu */
+#navegacao {
+    background-color: white;
+    border-bottom: 3px solid #d8d8d8;
+    height: 45px;
+}
+
+#area_menu {
+    width: 720px;
+    margin: 0 auto;
+}
+
+#logo {
+    float: left;
+}
+
+.azul {
+    color: #1e90ff;
+}
+
+#menu {
+    float: right;
+    padding: 10px 0;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+#menu a:link,
+#menu a:visited {
+    color: #4682b4;
+}
+
+#menu a:hover {
+    color: white;
+    background-color: #000080;
+}
+
+/* Area principal dos posts */
+#area_principal {
+    width: 720px;
+    margin: 50px auto 20px auto;
+}
+
+.postagem {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #87cefa;
+}
+
+.data_postagem {
+    font-size: 14px;
+    border-bottom: 1px solid #4682b4;
+    margin-bottom: 15px;
+    padding-bottom: 12px;
+    display: block;
+}
+
+.img_postagem{
+    max-width: 100%;
+    border-radius: 55px;
+}
+.autor{
+    border-top: 3px solid #483d88;
+    padding-left: 10px;
+    margin-top: 15px;
+    display: block;
+}
