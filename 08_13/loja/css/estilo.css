@@ -85,3 +85,36 @@ h2 {
     margin-top: 15px;
     display: block;
 }
+
+/* Antivirus */
+.titulo_antivirus{
+    color: #6c966c;
+    text-align: center;
+}
+
+.img_antivirus{
+    height: 150px;
+    border-radius: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.antivirus{
+    width: 30%;
+    height: 200px;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+#avast{
+    background-image: url('../img/avast.png');
+}
+#avg{
+    background-image: url('../img/avg.jpg');
+}
+#norton{
+    background-image: url('../img/norton.png');
+}
