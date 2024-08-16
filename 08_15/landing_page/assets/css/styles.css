@@ -441,8 +441,7 @@ body.dark footer {
     text-align: center;
   }
 
- 
-
+  
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
   }
@@ -459,7 +458,7 @@ body.dark footer {
   .logo {
     font-size: 1.5rem;
   }
-
+ 
  .hero {
     flex-direction: column;
     max-width: 500px;
@@ -513,3 +512,20 @@ body.dark footer {
     left: 195px;
   }
 }
+
+/* Desenhando barras */
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 5px 0;
+  transition: 0.4s;
+}
+
+
+/* Exibindo lista */
+ul.active {
+  left: 0;
+  display: block; 
+}
+

@@ -51,7 +51,9 @@
             </li>
         </ul>
         <div class="hamburger" id="hamburger">
-            <ion-icon name="menu-outline"></ion-icon>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
         </div>
 
     </nav>
@@ -98,24 +100,24 @@
     <!-- Lightbox image gallery -->
     <section class="stars" id="stars">
         <div class="stars-gallery">
-            <a href="assets/images/boda--femi.jpg" class="big">
+            <a href="assets/images/boda--femi.jpg" class="big nav-link">
                 <img src="assets/images/boda--femi.jpg" alt="Anthony Joshua" title="AJ" />
             </a>
 
-            <a href="assets/images/tyson-fury.jpg" class="big">
+            <a href="assets/images/tyson-fury.jpg" class="big nav-link">
                 <img src="assets/images/tyson-fury.jpg" alt="Tyson Fury" title="Gypsy King" />
             </a>
 
-            <a href="assets/images/iron-mike.webp.jpg" class="big">
+            <a href="assets/images/iron-mike.webp.jpg" class="big nav-link">
                 <img src="assets/images/iron-mike.webp.jpg" alt="Iron Mike" title="Iron Mike" />
             </a>
 
-            <a href="assets/images/ali.jpg" class="big">
+            <a href="assets/images/ali.jpg" class="big nav-link">
                 <img src="assets/images/ali.jpg" alt="Mohammed Ali" title="The Greatest" />
             </a>
 
-            <a href="assets/images/wilder.jpg" class="big"><img src="assets/images/wilder.jpg" alt="Deontay Wilder"
-                    title="Bronze Bomber" />
+            <a href="assets/images/wilder.jpg" class="big nav-link"><img src="assets/images/wilder.jpg"
+                    alt="Deontay Wilder" title="Bronze Bomber" />
             </a>
 
             <a href="assets/images/big-george.jpg" class="big">
@@ -201,6 +203,9 @@
         const hamburger = document.querySelector("#hamburger");
         const navMenu = document.querySelector("ul");
 
+        //hamburguer acerto
+        hamburger.addEventListener("click", openMenu);
+
         function openMenu() {
             hamburger.classList.toggle("active");
             navMenu.classList.toggle("active");
@@ -213,7 +218,7 @@
 
     <script>
         //Menu
-        const navLink = document.querySelectorAll("#nav-link");
+        const navLink = document.querySelectorAll(".nav-link");
 
         navLink.forEach((n) => n.addEventListener("click", closeMenu));
         function closeMenu() {
