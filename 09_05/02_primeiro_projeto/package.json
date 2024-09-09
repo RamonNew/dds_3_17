@@ -1,0 +1,21 @@
+{
+  "name": "senai-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "API",
+    "database"
+  ],
+  "author": "Ramon de Holanda",
+  "license": "ISC",
+  "description": "API HTTP para gerenciar itens do banco de dados",
+  "dependencies": {
+    "jest": "^29.7.0",
+    "node-fetch": "^3.3.2"
+  }
+}
