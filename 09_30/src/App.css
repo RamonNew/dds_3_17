@@ -1,0 +1,24 @@
+body, #root, .site{
+    height: 100vh;
+}
+
+.site{
+    background-color: #f2f2f2;
+}
+
+.cabecalho{
+    background-color: rgb(114, 81, 144);
+}
+
+.nav-item .menu_link{
+    color: #fff;
+}
+
+.nav-item .menu_link:hover{
+    color: pink;
+    transition: 0.5s;
+}
+
+.produto{
+    border-bottom: 1px solid #000;
+}
